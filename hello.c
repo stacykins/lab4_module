@@ -1,6 +1,6 @@
-// SPDX-License-Identifier: GPL-2.0-only
+// SPDX-License-Identifier: Dual BSD/GPL
 /*
- * Copyright (c) 2026 Student
+ * Copyright (c) 2026 Anastasia Chukhrai
  */
 
 #include <linux/init.h>
@@ -13,9 +13,9 @@
 #include <linux/list.h>
 #include <linux/errno.h>
 
-MODULE_LICENSE("GPL");
-MODULE_AUTHOR("Student");
-MODULE_DESCRIPTION("Lab 4: Kernel Module");
+MODULE_AUTHOR("Anastasia Chukhrai");
+MODULE_DESCRIPTION("Lab 4: Linux Kernel Module with Parameters and Lists");
+MODULE_LICENSE("Dual BSD/GPL");
 MODULE_VERSION("0.1");
 
 static uint count = 1;
